@@ -24,9 +24,9 @@ This is also linked to index.js
 // this takes the attack points, subtracts it from the players health,
 // and returns it back to their health score
 
-  function attackPlayer(health) {
-    health -= randomDamage();
-    return health;
+const attackPlayer = function(health) {
+  health -= randomDamage();
+  return health;
   }
   
 // declares the isDead variable to either user, depending on whose 
